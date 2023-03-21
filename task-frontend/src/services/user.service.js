@@ -18,7 +18,7 @@ export async function createUser(data) {
     //     body:data
     //   })
 
-   return await axios.post("http://localhost:3001/user", data)
+   return await axios.post("http://15.206.173.148:3001/user", data)
     // .then(res => {
     //     console.log('11111111111111111111111111',res);
     // }).catch(err=>{
